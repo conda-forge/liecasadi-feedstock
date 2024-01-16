@@ -1,5 +1,5 @@
 {% set name = "liecasadi" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/liecasadi-{{ version }}.tar.gz
-  sha256: 6fe2a527d95da736ad3088bef6a5f6e8bb86e5a29eeb8f967e48247bd529582c
+  sha256: 27fe534ea96dd4dffcecfdfb65ae484e09b45e7691cb8e2bf6d7fc62edd33eee
 
 build:
   noarch: python
